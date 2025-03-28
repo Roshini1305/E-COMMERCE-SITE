@@ -1,0 +1,144 @@
+.body {
+    margin: 0;
+}
+
+.offer-text {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background: linear-gradient(to right, rgb(0, 152, 178), rgb(126, 217, 87));
+    font-size: 14px;
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    align-items: center;
+}
+
+.hamburger-icon {
+    font-size: 28px;
+}
+
+.site-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.site-name {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(79, 113, 51);
+}
+
+.other-icons {
+    display: flex;
+}
+
+.search-icon,
+.profile-icon,
+.cart-icon {
+    margin-right: 20px;
+    font-size: 28px
+}
+
+.cart-name {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.cart-products-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    row-gap: 30px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: space-between;
+}
+
+.general-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.product-name {
+    font-size: 24spx;
+    font-weight: bold;
+}
+
+.ratings,
+.stars {
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    display: flex;
+    border: 1px solid black;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.decrement,
+.increment {
+    width: 30px;
+    padding: 5px 10px;
+    border: none;
+    font-size: 18px;
+}
+
+.quantity span {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.star {
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(79, 113, 51);
+}
+
+.remove-btn {
+    width: fit-content;
+    padding: 8px 10px;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    border: none;
+}

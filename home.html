@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="/home.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <p class="offer-text"><b>FLAT 50% OFF ON PURCHASE ABOVE &#8377 999</b></p>
+        <div class="navigation-bar">
+            <div class="hamburger-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="site-info">
+                <div><img src="\icons\logo.jpg" class="site-logo"></div>
+                <div class="site-name">Herbal Products</div>
+            </div>
+            <div class="other-icons">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="profile-icon" onclick="redirectToLogin()" style="display:none;">
+
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <button class="login_btn" onclick="redirectToLogin()">Login</button>
+                <div class="cart-icon" onclick="openCart()">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="Advertisement_banner">
+            <div class="Advertisement_banner_1">
+                <div class="Advertisement_banner_list">
+                    <div class="Advertisement_banner_1">
+                        <img src="advertisement/Ad_Image_1.jpg" class="Ad_Image_1">
+                        <div class="advertisement_info">
+                            <div class="text-1">DISCOVER THE BEAUTY</div>
+                            <div class="text-2">50% <span class="text-2_1">FLAT</span></div>
+                            <div class="text-3">&#8377; 999 above purchases </div>
+                        </div>
+                    </div>
+                    <div class="Advertisement_banner_2">
+                        <img src="advertisement/Ad_Image_2.jpg" class="Ad_Image_1">
+                        <div class="advertisement_info">
+                            <div class="text-1">ENJOY</div>
+                            <div class="text-2">Combo Offers</div>
+                            <div class="text-3">Care For Skin </div>
+                        </div>
+                    </div>
+                    <div class="Advertisement_banner_3">
+                        <img src="advertisement/Ad_Image_3.jpg" class="Ad_Image_1">
+                        <div class="advertisement_info">
+                            <div class="text-1">SUPER DEAL</div>
+                            <div class="text-2">HERBAL</div>
+                            <div class="text-3">Hair Care Oil</div>
+                            <div class="text-4">&#8377;299 only</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-navigation">
+                    <div class="round-divs">
+                        <div class="round-1 active round"></div>
+                        <div class="round-2 round"></div>
+                        <div class="round-3 round"></div>
+                    </div>
+                    <div class="purchase-now">
+                        <button class="purchase-now-btn">PURCHASE NOW</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div class="beneficial-products-section">
+            <div class="title">Beneficial herbal products</div>
+            <div class="product-list">
+                <div class="product" data-product-id="1">
+                    <div class="image">
+                        <img src="\products\product1.jpg" class="img-1 img">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">HERBAL SOAP</div>
+                        <div class="ratings">
+                            <div class="stars">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                            </div>
+                            <div class="rated-users">
+                                (59 <i class="fa-regular fa-user"></i>)
+                            </div>
+                        </div>
+                        <div class="price">MRP: &#8377;299</div>
+                        <div>
+                            <button class="add-to-cart-btn" onclick="addToCart(this)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" data-product-id="2">
+                    <div class="image">
+                        <img src="\products\product2.jpg" class="img-2 img">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">HERBAL LOTION</div>
+                        <div class="ratings">
+                            <div class="stars">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                            </div>
+                            <div class="rated-users">
+                                (59 <i class="fa-regular fa-user"></i>)
+                            </div>
+
+                        </div>
+                        <div class="price">MRP: &#8377;499</div>
+                        <div>
+                            <button class="add-to-cart-btn" onclick="addToCart(this)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" data-product-id="3">
+                    <div class="image">
+                        <img src="\products\product3.jpg" class="img-3 img">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">HERBAL OIL</div>
+                        <div class="ratings">
+                            <div class="stars">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                            </div>
+                            <div class="rated-users">
+                                (59 <i class="fa-regular fa-user"></i>)
+                            </div>
+                        </div>
+                        <div class="price">MRP: &#8377;699</div>
+                        <div>
+                            <button class="add-to-cart-btn" onclick="addToCart(this)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" data-product-id="4">
+                    <div class="image">
+                        <img src="\products\product4.jpg" class="img-4 img">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">HERBAL SERUM</div>
+                        <div class="ratings">
+                            <div class="stars">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                            </div>
+                            <div class="rated-users">
+                                (59 <i class="fa-regular fa-user"></i>)
+                            </div>
+                        </div>
+                        <div class="price">MRP: &#8377;199</div>
+                        <div>
+                            <button class="add-to-cart-btn" onclick="addToCart(this)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-products">
+                <button class="view-all-products-btn">VIEW ALL PRODUCTS</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="beneficial-products-section">
+            <div class="title">Exciting combo offer products</div>
+            <div class="product-list">
+                <div class="product">
+                    <div class="image">
+                        <img src="\products\product1.jpg" class="img-1 img">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">HERBAL SOAP<span class="packs">(pack of 2)</span></div>
+                        <div class="ratings">
+                            <div class="stars">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                            </div>
+                            <div class="rated-users">
+                                (59 <i class="fa-regular fa-user"></i>)
+                            </div>
+                        </div>
+                        <div class="price">MRP: &#8377;299</div>
+                        <div>
+                            <button class="add-to-cart-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="\products\product2.jpg" class="img-2 img">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">HERBAL LOTION<span class="packs">(pack of 2)</span></div>
+                        <div class="ratings">
+                            <div class="stars">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                            </div>
+                            <div class="rated-users">
+                                (59 <i class="fa-regular fa-user"></i>)
+                            </div>
+
+                        </div>
+                        <div class="price">MRP: &#8377;499</div>
+                        <div>
+                            <button class="add-to-cart-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="\products\product3.jpg" class="img-3 img">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">HERBAL OIL<span class="packs">(pack of 2)</span></div>
+                        <div class="ratings">
+                            <div class="stars">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                            </div>
+                            <div class="rated-users">
+                                (59 <i class="fa-regular fa-user"></i>)
+                            </div>
+                        </div>
+                        <div class="price">MRP: &#8377;699</div>
+                        <div>
+                            <button class="add-to-cart-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="\products\product4.jpg" class="img-4 img">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-name">HERBAL SERUM <span class="packs">(pack of 2)</span></div>
+                        <div class="ratings">
+                            <div class="stars">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                                <img src="/icons/rating.jpg" class="star">
+                            </div>
+                            <div class="rated-users">
+                                (59 <i class="fa-regular fa-user"></i>)
+                            </div>
+                        </div>
+                        <div class="price">MRP: &#8377;199</div>
+                        <div>
+                            <button class="add-to-cart-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-products">
+                <button class="view-all-products-btn">VIEW ALL PRODUCTS</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-section">
+            <div class="contact-info">
+                <div class="address">
+                    Abcd 2, xyz,<br> Coimbatore,<br> Tamilnadu,642108
+                </div>
+                <div class="contact-number">
+                    Contact No: 8072191706
+                </div>
+                <div class="social-media-icons">
+                    <img src="\icons\whatsapp.jpg" class="icon">
+                    <img src="\icons\instagram.jpg" class="icon">
+                    <img src="\icons\facebook.jpg" class="icon">
+                    <img src="\icons\instagram.jpg" class="icon">
+                </div>
+            </div>
+            <div class="beneficial-products-footer">
+                <p>Beneficial Herbal Products</p>
+                <ul>
+                    <li>Herbal Soap</li>
+                    <li>Herbal Lotion</li>
+                    <li>Herbal Oil</li>
+                    <li>Herbal Serum</li>
+                </ul>
+            </div>
+            <div class="exciting-offer-products-footer">
+                <p>Exciting Combo Offer Products</p>
+                <ul>
+                    <li>Herbal Soap <span class="packs">(pack of 2)</span></li>
+                    <li>Herbal Lotion <span class="packs">(pack of 2)</span></li>
+                    <li>Herbal Oil <span class="packs">(pack of 2)</span></li>
+                    <li>Herbal Serum <span class="packs">(pack of 2)</span></li>
+                </ul>
+            </div>
+            <div class="company-info">
+                <div>
+                    <img src="\icons\logo.jpg" class="company-logo">
+                </div>
+                <div class="site-name-footer">
+                    HERBAL PRODUCTS
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="home.js"></script>
+</body>
+
+</html>

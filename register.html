@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="/authentication.css">
+</head>
+
+<body>
+    <div class="register-section">
+        <div class="register-wrapper">
+            <div class="signup-div">
+                <p>Sign Up</p>
+            </div>
+            <form class="register-form" onsubmit="createUser(event)">
+                <label for="userName">Username</label>
+                <input type="text" name="userName" id="userName" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+                <button class="sign-up-btn" type="submit">SignUp</button>
+            </form>
+            <p onclick="redirectToLogin()">already have an account? Login</p>
+        </div>
+    </div>
+    <script src="/home.js"></script>
+
+</body>
+
+</html>

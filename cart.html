@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="/cart.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <p class="offer-text"><b>FLAT 50% OFF ON PURCHASE ABOVE &#8377 999</b></p>
+        <div class="navigation-bar">
+            <div class="hamburger-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="site-info">
+                <div><img src="\icons\logo.jpg" class="site-logo">
+                </div>
+                <div class="site-name">Herbal Products</div>
+            </div>
+            <div class="other-icons">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="profile-icon">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <h2 class="cart-name">CART PRODUCTS</h2>
+        <div class="cart-products-list">
+            <div class="product">
+                <div class="image">
+                    <img src="\products\product1.jpg" class="img-1 img">
+                </div>
+
+                <div class="product-info">
+                    <div class="general-info">
+                        <div class="product-name">HERBAL SOAP</div>
+                        <div class="ratings">
+                            <div class="stars">
+                                <img src="\icons\rating.jpg" class="star">
+                                <img src="\icons\rating.jpg" class="star">
+                                <img src="\icons\rating.jpg" class="star">
+                                <img src="\icons\rating.jpg" class="star">
+                                <img src="\icons\rating.jpg" class="star">
+                            </div>
+                            <div class="rated-users">(59 <i class="fa-solid fa-user">)</i></div>
+                        </div>
+                        <div class="price">MRP: &#8377; 299</div>
+                        <div class="quantity">
+                            <button class="decrement" onclick="updateQuantity(this)">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increment" onclick="updateQuantity(this)">+</button>
+                        </div>
+                    </div>
+                    <button class="remove-btn" onclick="removeProduct(this)">Remove</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="\products\product2.jpg" class="img-2 img">
+                </div>
+
+                <div class="product-info">
+                    <div class="general-info">
+                        <div class="product-name">HERBAL LOTION</div>
+                        <div class="ratings">
+                            <div class="stars">
+                                <img src="\icons\rating.jpg" class="star">
+                                <img src="\icons\rating.jpg" class="star">
+                                <img src="\icons\rating.jpg" class="star">
+                                <img src="\icons\rating.jpg" class="star">
+                                <img src="\icons\rating.jpg" class="star">
+                            </div>
+                            <div class="rated-users">(59 <i class="fa-solid fa-user">)</i></div>
+                        </div>
+                        <div class="price">MRP: &#8377; 499</div>
+                        <div class="quantity">
+                            <button class="decrement" onclick="updateQuantity(this)">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increment" onclick="updateQuantity(this)">+</button>
+                        </div>
+                    </div>
+                    <button class="remove-btn" onclick="removeProduct(this)">Remove</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="\products\product3.jpg" class="img-3 img">
+                </div>
+                <div class="product-info">
+                    <div class="general-info">
+                        <div class="product-name">HERBAL OIL</div>
+                        <div class="ratings">
+                            <div class="stars">
+                                <img src="\icons\rating.jpg" class="star">
+                                <img src="\icons\rating.jpg" class="star">
+                                <img src="\icons\rating.jpg" class="star">
+                                <img src="\icons\rating.jpg" class="star">
+                                <img src="\icons\rating.jpg" class="star">
+                            </div>
+                            <div class="rated-users">(59 <i class="fa-solid fa-user">)</i></div>
+                        </div>
+                        <div class="price">MRP: &#8377; 699</div>
+                        <div class="quantity">
+                            <button class="decrement" onclick="updateQuantity(this)">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increment" onclick="updateQuantity(this)">+</button>
+                        </div>
+                    </div>
+                    <button class="remove-btn" onclick="removeProduct(this)">Remove</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="image">
+                    <img src="\products\product4.jpg" class="img-4 img">
+                </div>
+
+                <div class="product-info">
+                    <div class="general-info">
+                        <div class="product-name">HERBAL SERUM</div>
+                        <div class="ratings">
+                            <div class="stars">
+                                <img src="\icons\rating.jpg" class="star">
+                                <img src="\icons\rating.jpg" class="star">
+                                <img src="\icons\rating.jpg" class="star">
+                                <img src="\icons\rating.jpg" class="star">
+                                <img src="\icons\rating.jpg" class="star">
+                            </div>
+                            <div class="rated-users">(59 <i class="fa-solid fa-user">)</i></div>
+                        </div>
+                        <div class="price">MRP: &#8377; 199</div>
+                        <div class="quantity">
+                            <button class="decrement" onclick="updateQuantity(this)">-</button>
+                            <span class="quantity">1</span>
+                            <button class="increment" onclick="updateQuantity(this)">+</button>
+                        </div>
+                    </div>
+                    <button class="remove-btn" onclick="removeProduct(this)">Remove</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="/cart.js"></script>
+</body>
+
+</html>
