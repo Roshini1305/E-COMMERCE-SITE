@@ -51,5 +51,16 @@ Technology used in the E-Commerce Site project in java
 
 
 ## Screenshots
+# Project Name
+
+## Screenshots
+
+![Screenshot 1](images/Screenshot(437).png)
+
+![Screenshot 2](images/Page2.png)
+
+![Screenshot 3](images/Page3.png)
+
+![Screenshot 4](images/Page1.png)
 
 
