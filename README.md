@@ -1,45 +1,55 @@
-# Smart Bus Scheduling And Automation System
-Smart Bus Scheduling and Automation System project using HTML, CSS, JavaScript, Node.js, and MySQL. This is a full-stack web application that automates the public transportation system. The application helps users to track buses live, book tickets, and view bus timings. The backend uses Node.js and MySQL, and the frontend is designed using HTML, CSS, and JavaScript.
+# HerbaCart E-Commerce Platform for Herbal Products
+HerbaCart is a dynamic e-commerce platform built using JavaScript, Node.js, Express.js, and MySQL to offer seamless access to curated herbal products. The system follows the MVC architecture and is designed for both customers and administrators to efficiently manage and buy herbal goods. It bridges the digital gap between local herbal manufacturers and health-conscious buyers.
 
-The application ensures smart and efficient travel experiences for passengers while providing control to admin and operators over route and schedule management.
+The main objective of developing HerbaCart is to promote authentic herbal products online and empower rural entrepreneurs with digital reach.
 
-
-The main objective to develop Smart Bus Scheduling and Automation System is to modernize and digitize the public transportation system with real-time tracking and automation features.
-
-There will be Three main Actors or Users of the application
+There are three primary user roles in the system:
 
 1.Admin
 
-2.Bus Operator
+2.Customer
 
-3.Passenger/User
+3.Product Seller (Local Herbal Vendor)
 
-There are three main actors of the system who will manage or interact with the application. Let’s discuss one by one according to their roles and responsibilities.
+Let’s understand the role and functionality of each user.
 
 # Modules
 ## Admin
-* Admin is the primary actor who will be responsible for managing bus operators, routes, and schedules. Below is the task list which will be performed by admin.
-* Admin can ADD/DELETE/UPDATE bus routes.
-* Admin can ADD/DELETE/UPDATE bus schedules.
-* Admin can ADD/DELETE/UPDATE bus operators.
-* Admin can VIEW all bookings.
-* Admin can VIEW route statistics.
+The Admin is the main controller of the platform and has access to manage users and the product catalog.
 
-## Bus Operator:
-* Bus operator can VIEW the daily route list.
-* Bus operator can UPDATE the live location of the bus.
-* Bus operator can VIEW the list of passengers for the day.
+* Can ADD/EDIT/DELETE herbal products.
+* Can VIEW all registered users and sellers.
+* Can MANAGE discounts and combo offers.
+* Can VIEW and TRACK orders.
+* Manages platform-level settings and trust verification of sellers.
 
-# Passenger/User:
-* Passenger can SEARCH buses by source, destination, and date.
-* Passenger can VIEW available buses and seats.
-* Passenger can BOOK tickets online.
-* Passenger can VIEW their booking history.
+## Customer:
+The Customer can browse and purchase herbal products securely through the platform.
 
-# Technology
-Technology used in the Smart Bus Scheduling and Automation System project:
+* Can REGISTER/LOGIN with email/password.
+* Can VIEW product catalog with images, prices, and ratings.
+* Can ADD/REMOVE/UPDATE items in the cart.
+* Can PLACE ORDERS and view order history.
+* Can access combo deals and offers.
 
-Front-End: HTML, CSS, JavaScript
-Server-side: Node.js (Express)
-Back-end: MySQL
-Server: Node server (local or hosted)
+# Product Seller:
+* Local herbal manufacturers or sellers can upload and manage their own products.
+* Can ADD/EDIT/DELETE their herbal products.
+* Can VIEW sales summary and customer feedback
+* Can MANAGE inventory and pricing.
+* Request verification from admin for credibility badge.
+
+# Technologies
+Technology used in the E-Commerce Site project in java
+
+* Frontend HTML, CSS, JavaScript
+* Backend Node.js, Express.js
+* Database MySQL
+* Server Node Server (Express)
+* Architecture MVC
+* Tools REST APIs, JSON, npm
+
+
+## Screenshots
+
+
