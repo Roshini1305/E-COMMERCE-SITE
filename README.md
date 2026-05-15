@@ -57,10 +57,10 @@ Technology used in the E-Commerce Site project in java
 
 ![Screenshot 1](images/Page1.png)
 
-![Screenshot 2](images/Page2.png)
+![Screenshot 2](images/Page4.png)
 
-![Screenshot 3](images/Page3.png)
+![Screenshot 3](images/Page2.png)
 
-![Screenshot 4](images/Page4.png)
+![Screenshot 4](images/Page3.png)
 
 
